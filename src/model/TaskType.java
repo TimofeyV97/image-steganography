@@ -2,6 +2,6 @@ package model;
 
 public enum TaskType {
 
-	ENCODE, DECODE
+	ENCODE, DECODE, PSNR
 
 }

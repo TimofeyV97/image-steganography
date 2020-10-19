@@ -16,6 +16,8 @@ public class FileHelper {
 			list.add(c);
 		}
 
+		in.close();
+
 		return list;
 	}
 
@@ -26,6 +28,8 @@ public class FileHelper {
 		for (final int b : bytes) {
 			out.write(b);
 		}
+
+		out.close();
 	}
 
 }
